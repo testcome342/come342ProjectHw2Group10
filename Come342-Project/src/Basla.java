@@ -1,5 +1,7 @@
 // Author : Tamer Ince
-// Date : 14.04.2018
+
+// Date  : 14.04.2018
+
 import java.util.*;
 
 public class Basla {
@@ -20,7 +22,7 @@ public class Basla {
 			if (toDo.equalsIgnoreCase("2"))
 			{
 				basla.getAllClients();
-			}
+		 	}
         	
 		}
 
