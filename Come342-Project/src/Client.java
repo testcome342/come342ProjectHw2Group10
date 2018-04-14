@@ -33,6 +33,7 @@ public class Client {
 		System.out.println("COMPANYADDRESS :"+companyAddress);
 		System.out.println("CONTACTNAME :"+contactName);
 		System.out.println("CONTACTE-Mail :"+contactEmail);
+                System.out.println("---------------------------");
 		
 		
 	}
