@@ -20,9 +20,6 @@ public class Basla {
 				basla.addNewClient();
 			}
 
-                        if(!toDo.equalsIgnoreCase("1"))
-			{
-				System.out.println("Please ADD Clients First Before Printing the info!!!");
 			}
 			if (toDo.equalsIgnoreCase("2"))
 			{
