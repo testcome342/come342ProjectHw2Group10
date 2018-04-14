@@ -41,7 +41,8 @@ public class Test {
 		  for (int i = 0; i < clientSayaci; i++) {
 				
 			  Client.get(i).getClientInfo();
-			}
+			} if (clientSayaci==0)
+		  {System.out.println("Please ADD Clients First Before Printing the info!!!");}
 	    }
      
   
