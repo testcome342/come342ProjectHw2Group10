@@ -9,7 +9,7 @@ public class Basla {
 		String toDo;
 		Scanner input=new Scanner(System.in);
 		System.out.println("------------------AGATE LTD-----------------");
-		System.out.println("\r\n" + "PLEASE WRITE WHAT WOULD YOU LÝKE TO DO");
+		System.out.println("\r\n" + "PLEASE WRITE WHAT WOULD YOU LIKE TO DO");
 		System.out.println("(add new client)-(get all clients)");  // 'add client' yazıp istediğimz   kadar client ekleyebiliyoruz
 		while(true)                                                //daha sonra 'get all clients' diyerek bütün eklenenlerin bilgilerine ulasabliyoruz
 		{
