@@ -15,14 +15,11 @@ public class Basla {
 		{
 			System.out.println("\r\n" + "To add Clients Press -1- \nto get info Of the Clients press -2-");
 			toDo = input.nextLine();
-			if (toDo.equalsIgnoreCase("1"))
+			if (toDo.equalsIgnoreCase("1")) //Program reads the codes line by line so be
 			{
 				basla.addNewClient();
 			}
 
-                        if (toDo.equalsIgnoreCase("2"))
-			{System.out.println("-----------Please add the client first-----------"); // Error message occurs when user wants to get info of the clients before adding some
-				
 			}
 			if (toDo.equalsIgnoreCase("2"))
 			{
