@@ -23,6 +23,10 @@ public class Basla {
 			{
 				basla.getAllClients();
 			}
+			if(!toDo.equalsIgnoreCase("add new client")&&!toDo.equalsIgnoreCase("get All Clients"))
+					{
+				System.out.println("please make a proper request");
+					}
         	
 		}
 
