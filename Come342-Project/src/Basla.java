@@ -21,7 +21,7 @@ public class Basla {
 			}
 
                         if (toDo.equalsIgnoreCase("2"))
-			{System.out.println("-----------Please add the client first-----------"); //Error message occurs when user wants to get info of the clients before adding some
+			{System.out.println("-----------Please add the client first-----------"); // Error message occurs when user wants to get info of the clients before adding some
 				
 			}
 			if (toDo.equalsIgnoreCase("2"))
