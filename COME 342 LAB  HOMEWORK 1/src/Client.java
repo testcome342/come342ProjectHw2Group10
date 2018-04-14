@@ -1,4 +1,4 @@
-//Author: ANIL KARLIDAÐ
+//Author: ANIL KARLIDAG
 //Date: 14.04.2018 
 import java.util.*;
 public class Client {
