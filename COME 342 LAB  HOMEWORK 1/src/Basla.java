@@ -1,4 +1,4 @@
-//Author: ANIL KARLIDAĞ
+//Author: ANIL KARLIDAÃ
 //Date: 14.04.2018 
 import java.util.*;
 
@@ -9,9 +9,9 @@ public class Basla {
 		String toDo;
 		Scanner input=new Scanner(System.in);
 		System.out.println("------------------AGATE LTD-----------------");
-		System.out.println("\r\n" + "PLEASE WRITE WHAT WOULD YOU LİKE TO DO");
-		System.out.println("(add new client)-(get all clients)");   //bu seçeneklerden birini yazıp istediğimiz kaddr add client yapıp daha sonra get all clients diyerek bütün eklenenlerin bilgilerine ulaşabliyoruz
-		while(true)
+		System.out.println("\r\n" + "PLEASE WRITE WHAT WOULD YOU LÃKE TO DO");
+		System.out.println("(add new client)-(get all clients)");   //bu seÃ§eneklerden birini yazÃ½p istedigimiz kadar add client yazÄ±p 
+		while(true)                                                  //daha sonra get all clients diyerek bÃ¼tÃ¼n eklenenlerin bilgilerine ulaÃ¾abliyoruz
 		{
 			
 			toDo = input.nextLine();
