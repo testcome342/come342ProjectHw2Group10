@@ -18,7 +18,7 @@ public class BackStage {
 		int manyClient = Integer.parseInt(input.nextLine());
 		 
 			for (int i = 0; i < manyClient; i++) {
-                Client temp=new Client();
+                                Client temp=new Client();
 				System.out.println("please enter the " +(i+1)+ ". CompanyName,companyAddress,contactName,contactEmail");
 				CompanyName = input.nextLine();
 				companyAddress = input.nextLine();
@@ -26,7 +26,7 @@ public class BackStage {
 				contactEmail=input.nextLine();
 
 				temp.setClientInfo(CompanyName, companyAddress, contactName, contactEmail);
-                 Client.add(temp);
+                                Client.add(temp);
 				clientSayaci++;
 				System.out.println("client  added");
 			}
