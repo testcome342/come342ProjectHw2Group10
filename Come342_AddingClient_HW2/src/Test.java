@@ -1,4 +1,7 @@
-
+/* 
+Author : Mustafa Burak AltÄ±ntaÅŸ
+Date : 14.04.2018 
+*/
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -10,7 +13,7 @@ public class Test {
 
 	Scanner input = new Scanner(System.in);
 
- public	int clientSayacı = 0;
+ public	int clientSayacÃ½ = 0;
 	int manyCampaign;
 	void addNewClient()
 	{
@@ -28,14 +31,14 @@ public class Test {
 
 				temp.setClientInfo(CompanyName, companyAddress, contactName, contactEmail);
                  Client.add(temp);
-				clientSayacı++;
+				clientSayacÃ½++;
 			}
 	}
 	
 	
 	  void getAllClients()
 	    {
-		  for (int i = 0; i < clientSayacı; i++) {
+		  for (int i = 0; i < clientSayacÃ½; i++) {
 			  Client.get(i).getClientInfo();
 			}
 	    }
